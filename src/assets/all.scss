@@ -2,5 +2,7 @@
 // .App-header{
 //     background-color: $body-color;
 // }
-
+@import "bootstrap/scss/functions";
+@import "./_variables";
+@import "./utilities.scss";
 @import "bootstrap/scss/bootstrap";

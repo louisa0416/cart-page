@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './assets/index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <React.StrictMode> {/* 嚴格模式開發時使用(如取api會呼叫2次)*/}
+  {/*<React.StrictMode>  嚴格模式開發時使用(如取api會呼叫2次)*/}
     <App />
-  </React.StrictMode>
+  {/*</React.StrictMode>*/}
   </>
 );
 
